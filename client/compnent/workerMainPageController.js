@@ -13,7 +13,7 @@ app.controller('workerMainPageController', function($scope, $http, $log) {
 		$log.info(response);
 	};
 	const successCallBackWorkerPage = (response) => {
-		$scope.phoneNumber = response.data.fullName;
+		$scope.phoneNumber = response.data.phoneNumber;
 		$scope.fullName = response.data.fullName;
 		$scope.experienceLevel = response.data.experienceLevel;
 		$scope.expectedSalary = response.data.expectedSalary;

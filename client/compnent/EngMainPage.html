@@ -1,0 +1,47 @@
+<div>
+  <h2>
+    <strong> WELCOME {{fullName}} TO YOUR PROFILE </strong>
+    <br />
+	</h2>
+  <img
+	src= "{{url}}"
+		alt="uploaded image"
+		height="150"
+		width="200"
+	/>
+	<br/>
+	<br/>
+	Name: 
+	<input
+		type="text"
+		ng-model="fullName"
+		placeholder="fullName"
+	/>
+	<input
+		type="text"
+		ng-model="userName"
+		placeholder="userName"
+	/>
+	<br />
+	Phone Number: 
+	<input
+		type="text"
+		ng-model="phoneNumber"
+		placeholder="phoneNumber"
+	/>
+	<br />
+	Location:
+	<input
+		type="text"
+		ng-model="siteLocation"
+		placeholder="siteLocation"
+		/>
+	<br />
+
+	<h2><strong>Construction Workers:</strong><br /></h2>
+
+	<a href="#!/smith"><button value="Smiths">Smiths</button></a>
+	<a href="#!/carpenter"><button value="Carpenters">Carpenters</button></a>
+	<a href="#!/stoneBuilder"><button value="Stone Builders">Stone Builders</button></a>
+	<a href="#!/painter"><button value="Painters">Painters</button></a>
+</div>
